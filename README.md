@@ -10,7 +10,7 @@ Entry for the make.fun competition **btc-race-24h-20261123-0511** ("Race a BTC t
 
 Long-only trend following with dual confirmation and a protective trailing stop:
 
-- **Indicators:** EMA fast (10) / EMA slow (250), both SMA-seeded; 200-bar momentum window.
+- **Indicators:** EMA fast (5) / EMA slow (250), both SMA-seeded; 200-bar momentum window.
 - **Entry** (only when flat, cooldown expired): fast EMA above slow EMA **and** current close above the close 200 bars ago.
 - **Exit** when any of: fast EMA crosses below slow EMA, price falls 4% from the highest close since entry (trailing stop), or 200-bar momentum drops below −2%.
 - **Cooldown:** 600 bars after every exit to avoid whipsaw re-entries.
